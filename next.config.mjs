@@ -1,6 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-};
+// next.config.mjs
+import path from "path";
 
-export default nextConfig;
+export default {
+  outputFileTracingRoot: path.join(process.cwd()), // or __dirname equivalent
+};
