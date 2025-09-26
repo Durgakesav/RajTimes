@@ -2,7 +2,6 @@ import Link from "next/link";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Carousal1 from "./Carousal1";
-import Product_Cards from "./Product_Cards";
 import Carousal2 from "./Carousal2";
 import CategoryGrid from "./CategoryGrid";
 
